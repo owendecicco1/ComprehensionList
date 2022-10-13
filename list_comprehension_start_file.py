@@ -86,7 +86,7 @@ print(result)
 ## Extract the numbers from the following phrase ##
 
 phrase = 'In 1984 there were 13 instances of a protest with over 1000 people attending. On average there were 15 reported injuries at each event, with about 3 or 4 that were classifled as serious per event.'
-numbers = [x for x in phrase.split(" ") if x.isdigit()]
+numbers = [x for x in phrase.split(" ") if x.iigit()]
 print(numbers)
 
 
